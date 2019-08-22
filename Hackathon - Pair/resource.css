@@ -1,0 +1,36 @@
+body{
+	background-color: #d9d9d9;
+	color: #333;
+}
+
+header{
+	background-color: #333;
+	color: #d9d9d9;
+	padding: 10px;
+	margin-bottom: 40px;
+}
+
+main{
+	text-align: justify-all;
+	line-height: 2;
+	font-size: 16px;
+
+}
+
+nav{
+	text-align: right; 
+}
+
+li{
+	display: inline;
+	padding: 10px;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #d9d9d9;
+}

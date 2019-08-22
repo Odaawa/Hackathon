@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Budget</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<header>
+		<div id="main_heading">
+		<h1>My Budget</h1>
+		<p>My Budget is a simple online budget help which aids you in managing your finances.</p>
+		</div>
+	</header>
+	<main> 
+		<div class="clear"></div>
+		<h2>Sign Up today and make the most of what you earn!</h2>
+		<div id="form">
+			<form name="signup">
+				<label for="username" class="label">Username<span id="required">*</span></label>
+				<input type="text" name="username" id="username" maxlength="10" required class="user_entry">
+				<br>
+				<label for="email" class="label">E-mail<span id="required">*</span></label>
+				<input type="email" name="email" id="email" class="user_entry" required>
+				<br>
+				<label for="password1" class="label">Password<span id="required">*</span></label>
+				<input type="password" name="psw1" id="password1" class="user_entry" required>
+				<br>
+				<label for="password2" class="label">Confirm Password<span id="required">*</span></label>
+				<input type="password" name="psw2" id="password2" class="user_entry" required>
+				<br>
+				<button id="submit">Submit</button>
+			</form>
+		</div>
+		<div>
+			<p>Already have an account, <a href="login.html">Login</a>.</p>
+		</div>
+		
+	</main>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
